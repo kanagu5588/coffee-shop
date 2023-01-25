@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: cursive;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(187, 190, 190);
+    position: sticky;
+    top: 0;
+    
+    
+}
+html{
+    scroll-padding-top: 5rem;
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+    
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.navlinks{
+    height: 50px;
+    width: 60%;
+    
+    position: absolute;
+    left: 40%;
+    top: 15px;
+
+}
+a{
+    display: inline-flex;
+    position: relative;
+    color: black;
+    margin-top: 20px;
+    font-size: larger;
+    margin-left: 50px;
+}
+
+/* Section 1 */
+.Home{
+    min-height: 42rem;
+    background-image: url(images/home-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.karate{
+    height: 400px;
+    width: 50%;
+    top: 30%;
+    left: 1%;
+}
+.karate h1{
+    height: 40px;
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 32%;
+    font-size: 30px;
+}
+.karate p{
+    height: 100px;
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 20%;
+    line-height: 1.5;
+    font-size: 20px;
+    align-items: center;
+    
+}
+.karate button{
+    padding: 10px 30px;
+    
+    margin-top: 20px;
+    margin-left: 36%;
+    font-size: 20px;
+    
+    background-color: rgb(207, 159, 118);
+    cursor: pointer;
+    border-radius: 4px;    
+}
+
+
+/* Section 2 */
+.About{
+    height: 43rem;
+    
+    display: flex;
+    
+}
+.pic2{
+    height: 350px;
+    width: 35%;
+    margin-top: 60px;
+    margin-left: 50px;
+    
+    
+}
+.kungfu{
+    height: 300px;
+    width: 35%;
+    top: 50px;
+    left: 50%;
+    
+    
+}
+.kungfu h1{
+    height: 40px;
+    width: 130%;
+    margin-top: 40%;
+    margin-left: 30%;
+    font-size: 30px;
+    
+    
+}
+.kungfu p{
+    height: 60px;
+    width: 130%;
+    margin-top: 20px;
+    margin-left: 30%;
+    font-size: 20px;
+    line-height: 1.5;
+    
+}
+.kungfu button{
+    padding: 10px 30px;
+    background-color: rgb(207, 159, 118);
+    font-size: 20px;
+    border-radius: 4px;
+    margin-top: 80px;
+    margin-left: 70%;
+    
+    
+    
+}
+
+/* Section 3 */
+.Facility{
+    height: 43rem;
+    background-color: transparent;
+      
+}
+.Facility .pic3{
+    
+    margin-top: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+.Facility .pic3 img{
+    height: 15%;
+    width: 15%;
+    margin-top: 1.5rem;
+}
+.Facility .box-container{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.Facility .box-container .box{
+    text-align: center;
+    margin-top: 5%;
+}
+.Facility .box-container .box h1{
+    line-height: 2;
+}
+.Facility .box-container .box p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
+
+/* Section 4 */
+.Menu{
+    height: 43rem;
+    background-color: transparent;
+    
+}
+.Menu .pic4{
+    
+    text-align: center;
+    font-size: 25px;
+}
+.Menu .pic4 img{
+    height: 15%;
+    width: 15%;
+    margin-top: 1.5rem;
+}
+.Menu .boxer{
+    display: grid;
+    grid-template-columns: 20rem 20rem 20rem;
+    gap: 3rem;
+    margin-top: 2%;
+    
+    
+    margin-left: 15%;
+    
+}
+
+
+
+.Menu .boxer .ludo{
+    text-align: center;
+    
+}
+.Menu .boxer .ludo img{
+    height: 50%;
+    width: 50%;
+}
+/* Section 5 */
+.Gallery{
+    height: 43rem;
+    background-color: transparent;
+    
+}
+.pic5{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+.Gallery .pic5 img{
+    height: 15%;
+    width: 15%;
+    margin-top: 1.5rem;
+}
+.Gallery .baleno{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    margin-left: 7%;
+    
+    
+    
+}
+.Gallery .baleno img{
+    height: 80%;
+    width: 80%;
+}
+
+/* Section 6 */
+.Team{
+    height: 43rem;
+    background-color:transparent;
+    
+}
+.Team .pic6{
+    text-align: center;
+    font-size: 25px;
+}
+.Team .pic6 img{
+    height: 15%;
+    width: 15%;
+    margin-top: 1.5rem;
+}
+.Team .cut{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    gap: 40px;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+.Team .cut .shroov{
+    text-align: center;
+}
+.Team .cut img{
+    height: 40%;
+    width: 40%;
+
+    
+}
+
+
+
+/* Section 7 */
+.Contact{
+    height: 43rem;
+    background-color:transparent;
+    
+}
+.Contact .pic7{
+    text-align: center;
+    font-size: 20px;
+}
+.Contact .pic7 img{
+    height: 15%;
+    width: 15%;
+    margin-top: 1.5rem; 
+}
+.Contact .vip img{
+    height: 50%;
+    width: 40%;
+    
+}
+.Contact .vip{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.Contact .vip form{
+    padding-bottom: 40rem;
+    border: 2px solid black;
+    padding: 2rem;
+    text-align: center;
+    
+}
+.Contact .vip form .box{
+    width: 100%;
+    
+    padding: 1.2rem;
+    font-size: 1rem;
+    color: black;
+    margin: 1rem 0;
+}
+.Contact .vip form .bn{
+    padding: 1rem;
+    background-color: bisque;
+    color: black;
+    cursor: pointer;
+}
+/* Section 8 */
+.Blog{
+    height: 43rem;
+    background-color:transparent
+    
+}
+.Blog .vlog{
+    display: flex;
+    gap: 7rem;
+    align-items: center;
+    margin-left: 22%;
+    
+    
+}
+.Blog .vlog .undo i{
+    margin-top: 10rem;
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: rgb(210, 182, 105);
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    border-radius: 50%;
+    
+}
+.Blog .vlog .undo h1{
+    align-items: center;
+    line-height: 2;
+    margin-top: 5px;
+}
+.Blog .vlog .undo p{
+    line-height: 1.5;
+    text-align: center;
+}
+.Blog .cruze{
+    border: 3px solid black;
+    width: 90%;
+    margin-top: 8rem;
+    margin-left: 5%;
+}
+.Blog .thar{
+    margin-top: 3rem;
+    text-align: center;
+}
